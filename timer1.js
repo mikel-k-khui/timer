@@ -4,7 +4,7 @@
 // negative number: Ignore/skip any numbers that are negative.
 // not a number: Ignore/skip these as well.
 // Example:
-// node timer1.js 10 3 5 15 9 
+// node timer1.js 10 3 5 15 9
 
 //take argument subset of CLI
 let input = process.argv.slice(2); //[0] - node [1] - program [2+] arugments
