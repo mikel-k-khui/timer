@@ -21,7 +21,7 @@ stdin.on('data', (key) => {
 
   if (key === '\u0042' || key === '\u0062') {
     // Create the feature for when either upper- or lower-case b is pressed
-      setTimeout(() => process.stdout.write('\x07'), 0);
+    setTimeout(() => process.stdout.write('\x07'), 0);
   } else if (key === '\u0003') {
     // Create the feature for outputing a message when end of text is pressed
     // \u0003 maps to ctrl+c input
